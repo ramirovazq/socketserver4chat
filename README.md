@@ -36,14 +36,15 @@ Entra al proyecto e instala los requirements.txt
 
 ```
 
-Arranca el proyecto
+Arranca el servicio
 
 ```
 (ecommerce-env) usuario@tu-maquina:~$ python3 server.py
-
+======== Running on http://0.0.0.0:8080 ========
+(Press CTRL+C to quit)
 ```
 
-Arranca el proyecto
+El servicio esta corriendo en http://0.0.0.0:8080 Se debe habilitar el frontend, para que recibe las peticiones. Si se desea ver desde el navegador, http://0.0.0.0:8080/ se tiene un simple boton, que usa socket.io.js para enviar un msg, y escuchar lo que devuelve el servicio.
 
 
 
